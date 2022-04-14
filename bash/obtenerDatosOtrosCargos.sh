@@ -17,9 +17,6 @@ mkdir files/processing
 touch files/temp.txt
 
 #Obtiene el archivo de cuentas
-#echo "Obtiene el archvio de cuentas"
-#smbclient '//172.16.10.240/FacturacionTelcel' --directory "cuentas" -W COSMOCELMTY -U servicedesk%Cosmocel01 --debuglevel=0 -c 'prompt OFF; mget cuentas.csv'
-
 
 #copy files from shared folder
 echo "Obtiene las facturas del mes"
