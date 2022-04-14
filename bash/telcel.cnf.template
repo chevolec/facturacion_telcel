@@ -1,4 +1,8 @@
+
+#copy this file to telcel.cnf
+
 DB_NAME = "<db name>"
 telcel_files_folder = "<SMB Folder with file telcel.zip>"
 telcel_domain = "<domain>"
+# user must be typed as user%password
 telcel_user = "<domain user>"

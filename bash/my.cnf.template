@@ -1,3 +1,6 @@
+
+#copy this file to my.cnf
+
 [mysqldump]
 column-statistics=0
 [client]
